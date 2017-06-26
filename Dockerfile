@@ -1,5 +1,5 @@
-FROM java:8-jre
-MAINTAINER Joost de Vries
+FROM openjdk:8-jre
+MAINTAINER Ordina - Maatwerk Beheer
 
 RUN apt-get update && \
 apt-get install -y postgresql-client-9.4 && \
